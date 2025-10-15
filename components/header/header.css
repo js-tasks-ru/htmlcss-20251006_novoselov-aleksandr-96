@@ -1,6 +1,7 @@
 .header {
     background-color: #ffffff;
     padding: 96px 0 77px;
+    flex-shrink: 0;
 }
 
 .header__tittle {
