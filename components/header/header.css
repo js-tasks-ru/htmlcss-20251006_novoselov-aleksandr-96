@@ -1,4 +1,12 @@
 .header {
-    background-color: #FFFFFF;
-    padding: 40px;
+    background-color: #ffffff;
+    padding: 96px 0 77px;
+}
+
+.header__tittle {
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 64px;
+    letter-spacing: 0%;
 }
