@@ -15,8 +15,8 @@
 
 }
 
-.button_disabled {
-    cursor: default;
+.button:disabled {
+    pointer-events: none;
     opacity: 0.5;
 
 }
@@ -25,7 +25,7 @@
     background-color: var(--primary);
 }
 
-.button_primary:not(.button_disabled):hover {
+.button_primary:not(.button:disabled):hover {
     background-color: var(--primary_hover);
 }
 
@@ -33,7 +33,7 @@
     background-color: var(--secondary);
 }
 
-.button_secondary:not(.button_disabled):hover {
+.button_secondary:not(.button:disabled):hover {
     background-color: var(--secondary-hover);
 }
 
@@ -43,6 +43,6 @@
     border: 1px var(--grey-3) solid;
 }
 
-.button_alternate:not(.button_disabled):hover {
+.button_alternate:not(.button:disabled):hover {
     border: 1px var(--black) solid;
 }
