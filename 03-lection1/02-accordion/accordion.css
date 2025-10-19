@@ -3,7 +3,6 @@
     width: 730px;
     border-radius: 8px;
     border: 1px var(--grey-3) solid;
-    padding: 24px 32px;
     display: flex;
     flex-direction: column;
     font-family: Inter;
@@ -13,21 +12,24 @@
     letter-spacing: 0%;
 }
 
-.accordion[open] {
-    gap: 16px
+.accordion[open] .accordion__summary {
+    padding-bottom: 16px;
 }
 
 .accordion__summary {
     color: var(--black);
     list-style: none;
     cursor: pointer;
+    padding: 24px 32px;
 }
 
 .accordion__item {
     margin-bottom: 8px;
+    padding: 0 32px;
     color: var(--grey-4)
 }
 
 .accordion__item:last-child {
     margin-bottom: 0;
+    padding-bottom: 32px;
 }
