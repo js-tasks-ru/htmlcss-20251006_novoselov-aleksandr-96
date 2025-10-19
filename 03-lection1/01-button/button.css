@@ -2,7 +2,6 @@
 .button {
     border-width: 0;
     color: var(--white);
-    background-color: var(--primary);
     border-radius: 8px;
     cursor: pointer;
     height: 48px;
@@ -22,7 +21,11 @@
 
 }
 
-.button:not(.button_disabled):hover {
+.button_primary {
+    background-color: var(--primary);
+}
+
+.button_primary:not(.button_disabled):hover {
     background-color: var(--primary_hover);
 }
 
@@ -41,6 +44,5 @@
 }
 
 .button_alternate:not(.button_disabled):hover {
-    background-color: var(--alternate);
     border: 1px var(--black) solid;
 }
