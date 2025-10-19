@@ -16,12 +16,31 @@
 
 }
 
+.button_disabled {
+    cursor: default;
+    opacity: 0.5;
+
+}
+
+.button:not(.button_disabled):hover {
+    background-color: var(--primary_hover);
+}
+
 .button_secondary {
     background-color: var(--secondary);
+}
+
+.button_secondary:not(.button_disabled):hover {
+    background-color: var(--secondary-hover);
 }
 
 .button_alternate {
     background-color: var(--alternate);
     color: var(--alternate_text-color);
     border: 1px var(--grey-3) solid;
+}
+
+.button_alternate:not(.button_disabled):hover {
+    background-color: var(--alternate);
+    border: 1px var(--black) solid;
 }
