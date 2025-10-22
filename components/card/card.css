@@ -5,10 +5,16 @@
     box-shadow: var(--card_box_shadow);
     padding: 80px 24px 30px;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 75px;
 }
 
 .card__preview {
-    min-height: 232px;
+    min-height: 157px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
 
 .card__title {
