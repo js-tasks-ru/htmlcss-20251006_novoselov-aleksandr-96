@@ -4,14 +4,6 @@
     flex-direction: column;
 }
 
-.page__header {
-    flex-shrink: 0;
-}
-
 .page__preview {
     flex-grow: 1;
-}
-
-.page__footer {
-    flex-shrink: 0;
 }
