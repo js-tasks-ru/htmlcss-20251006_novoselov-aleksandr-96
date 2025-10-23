@@ -2,5 +2,8 @@
     background-color: #F9FAFC;
     display: flex;
     flex-direction: column;
-    height: 100vh; 
+}
+
+.page__preview {
+    flex-grow: 1;
 }
