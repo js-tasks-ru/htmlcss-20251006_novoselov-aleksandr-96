@@ -1,5 +1,5 @@
 .preview {
-    background-color: #F9FAFC;
+    background-color: var(--ghost-white);
     padding: 68px 0;
 }
 
