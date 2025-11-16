@@ -7,7 +7,6 @@
 @import '/components/container/container.css';
 @import '/03-lection1/02-accordion/accordion.css';
 @import '/components/card/card.css';
-@import '/components/tooltip/tooltip.css';
 
 :root {
     --white: #ffffff;
