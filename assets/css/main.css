@@ -8,6 +8,7 @@
 @import '/03-lection1/02-accordion/accordion.css';
 @import '/components/card/card.css';
 @import '/components/nav/nav.css';
+@import '/components/componentBlock/componentBlock.css';
 
 :root {
     --white: #ffffff;

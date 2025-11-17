@@ -1,0 +1,18 @@
+.componentBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 24px
+}
+
+.componentBlock__title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 38px;
+    color: var(--grey-4)
+}
+
+.componentBlock__component {
+    width: 350px;
+}
