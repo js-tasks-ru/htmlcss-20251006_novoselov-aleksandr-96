@@ -27,3 +27,11 @@
 .footer_ghost-white {
     --footer-bg: var(--ghost-white)
 }
+
+.footer__grey-h5 {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: var(--grey-3);
+}
