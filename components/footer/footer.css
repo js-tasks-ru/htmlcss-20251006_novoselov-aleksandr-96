@@ -25,10 +25,10 @@
 }
 
 .footer_ghost-white {
-    --footer-bg: var(--ghost-white)
+    background-color: var(--footer-ghost-white-bg);
 }
 
-.footer__grey-h5 {
+.footer__subtitle {
     font-weight: 500;
     font-size: 12px;
     line-height: 18px;

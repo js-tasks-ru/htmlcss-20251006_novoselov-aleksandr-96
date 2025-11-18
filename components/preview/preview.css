@@ -9,7 +9,7 @@
     gap: 30px;
 }
 
-.preview__inner_components {
+.preview__inner-components {
     display: grid;
     grid-template-columns: auto 1fr;
     gap: 56px;
