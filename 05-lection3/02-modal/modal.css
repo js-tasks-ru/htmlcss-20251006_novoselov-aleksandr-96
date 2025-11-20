@@ -1,6 +1,14 @@
 .modal {
+    display: none;
     position: fixed;
-    width: 428px;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--grey--6-50);
+}
+
+.modal__window {
+    position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -38,16 +46,4 @@
     top: 0;
     transform: translate(-12px, 12px);
     cursor: pointer;
-}
-
-.modal__shadow {
-    display: none;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 100vw;
-    height: 100vh;
-    background-color: var(--grey--6-50);
 }
