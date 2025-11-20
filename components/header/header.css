@@ -3,6 +3,10 @@
     padding: 96px 0 77px;
 }
 
+.header_ghost-white {
+    background-color: var(--header-ghost-white-bg);
+}
+
 .header__tittle {
     font-family: Inter, sans-serif;
     font-weight: 500;
