@@ -9,6 +9,7 @@
 @import '/components/card/card.css';
 @import '/components/nav/nav.css';
 @import '/components/componentBlock/componentBlock.css';
+@import '/03-lection1/01-button/button.css';
 
 :root {
     --white: #ffffff;
@@ -29,6 +30,8 @@
     --grey-3: #ACB5BD;
     --grey-4: #495057;
     --grey-5: #90A0B7;
+    --grey--6: #C4C4C4;
+    --grey--6-50: #C4C4C480;
 
     --footer-bg: var(--white);
     --header-bg: var(--white);
