@@ -1,5 +1,5 @@
 .page {
-    background-color: #F9FAFC;
+    background-color: var(--ghost-white);
     display: flex;
     flex-direction: column;
 }
@@ -7,3 +7,4 @@
 .page__preview {
     flex-grow: 1;
 }
+

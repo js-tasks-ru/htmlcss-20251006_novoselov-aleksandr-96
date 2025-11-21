@@ -1,5 +1,5 @@
 .preview {
-    background-color: #F9FAFC;
+    background-color: var(--ghost-white);
     padding: 68px 0;
 }
 
@@ -7,4 +7,14 @@
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+}
+
+.preview__inner-components {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 56px;
+}
+
+.preview__components {
+    padding: 36px 0 0;
 }

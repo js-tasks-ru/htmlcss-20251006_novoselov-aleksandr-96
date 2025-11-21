@@ -1,6 +1,10 @@
 .header {
-    background-color: #ffffff;
+    background-color: var(--header-bg);
     padding: 96px 0 77px;
+}
+
+.header_ghost-white {
+    background-color: var(--header-ghost-white-bg);
 }
 
 .header__tittle {
