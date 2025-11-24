@@ -1,12 +1,11 @@
 .header {
     background-color: var(--header-bg);
-    padding: 16px 16px 69px;
+    padding: 16px;
 }
 
 .header__inner {
     display: flex;
     justify-content: center;
-    margin-bottom: 48px;
 }
 
 .header_ghost-white {
@@ -20,17 +19,17 @@
     color: var(--grey-4);
     font-size: 28px;
     line-height: 38px;
+    padding: 48px 0 53px;
 }
 
 
 @media (min-width: 768px) {
     .header {
-        padding: 24px 160px 77px;
+        padding: 24px;
     }
 
     .header__inner {
         justify-content: flex-start;
-        margin-bottom: 38px;
     }
 
     .header__tittle {
@@ -38,5 +37,6 @@
         font-size: 50px;
         line-height: 64px;
         color: var(--black);
+        padding: 38px 0 61px;
     }
 }
