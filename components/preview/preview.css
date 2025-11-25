@@ -1,5 +1,5 @@
 .preview {
-    background-color: var(--white);
+    background-color: var(--ghost-white);
     padding: 24px 16px 61px 15px;
 }
 
@@ -17,12 +17,12 @@
 
 .preview__components {
     padding: 0;
+    background-color: var(--white);
 }
 
 @media (min-width: 768px) {
    .preview {
         padding: 68px 24px;
-        background-color: var(--ghost-white);
     }
 
     .preview__inner {
@@ -31,5 +31,6 @@
 
     .preview__components {
         padding: 36px 0 0;
+        background-color: var(--ghost-white);
     }
 }
