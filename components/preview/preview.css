@@ -22,7 +22,7 @@
 @media (min-width: 768px) {
    .preview {
         padding: 68px 24px;
-            background-color: var(--ghost-white);
+        background-color: var(--ghost-white);
     }
 
     .preview__inner {
