@@ -50,6 +50,7 @@
     .card__preview {
         min-height: 157px;
         align-items: flex-end;
+        border-bottom: none;
     }
 
     .card__title {
