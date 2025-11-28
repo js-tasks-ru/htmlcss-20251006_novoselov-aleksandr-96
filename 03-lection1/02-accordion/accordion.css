@@ -20,11 +20,18 @@
     padding-bottom: 16px;
 }
 
+.accordion__section[open] .accordion__arrow {
+    transform: rotate(180deg);
+}
+
 .accordion__summary {
     color: var(--black);
     list-style: none;
     cursor: pointer;
     padding: 24px 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .accordion__content {
