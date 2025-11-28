@@ -1,11 +1,5 @@
 .nav {
-    width: 229px;
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
+    display: none;
 }
 
 .nav__title {
@@ -29,4 +23,16 @@
 
 .nav__menu-item_active {
     color: var(--red-2)
+}
+
+@media (min-width: 768px) {
+    .nav {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        width: 229px;
+    }
 }
