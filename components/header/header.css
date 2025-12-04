@@ -3,10 +3,6 @@
     padding: 16px 0;
 }
 
-.header_home {
-    border-bottom: 1px solid var(--grey-2);
-}
-
 .header__inner {
     display: flex;
     justify-content: center;
