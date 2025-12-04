@@ -11,6 +11,7 @@
 @import '/components/componentBlock/componentBlock.css';
 @import '/03-lection1/01-button/button.css';
 @import '/06-lection4/01-avatar/avatar.css';
+@import '/assets/css/breakpoints.css';
 
 :root {
     --white: #ffffff;

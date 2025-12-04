@@ -30,14 +30,6 @@
     color: var(--black);
 }
 
-.card__title_mobile {
-    display: block;
-}
-
-.card__title_desktop {
-    display: none;
-}
-
 @media (min-width: 768px) {
     .card {
         width: 350px;
@@ -59,14 +51,6 @@
         font-size: 21px;
         line-height: 25px;
         color: var(--black);
-    }
-
-    .card__title_mobile {
-        display: none;
-    }
-
-    .card__title_desktop {
-        display: block;
     }
 
     .card_no-mobile {
