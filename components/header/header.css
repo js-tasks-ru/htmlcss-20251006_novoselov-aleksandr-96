@@ -1,6 +1,11 @@
 .header {
     background-color: var(--header-bg);
-    padding: 96px 0 77px;
+    padding: 16px 0;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: center;
 }
 
 .header_ghost-white {
@@ -8,9 +13,30 @@
 }
 
 .header__tittle {
-    font-family: Inter, sans-serif;
-    font-weight: 500;
-    font-size: 50px;
-    line-height: 64px;
-    letter-spacing: 0%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    color: var(--grey-4);
+    font-size: 28px;
+    line-height: 38px;
+    padding: 48px 0 53px;
+}
+
+
+@media (min-width: 768px) {
+    .header {
+        padding: 24px;
+    }
+
+    .header__inner {
+        justify-content: flex-start;
+    }
+
+    .header__tittle {
+        font-weight: 500;
+        font-size: 50px;
+        line-height: 64px;
+        color: var(--black);
+        padding: 38px 0 61px;
+    }
 }

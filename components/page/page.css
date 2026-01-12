@@ -4,6 +4,10 @@
     flex-direction: column;
 }
 
+.page__header {
+    border-bottom: 1px solid var(--grey-2);
+}
+
 .page__preview {
     flex-grow: 1;
 }

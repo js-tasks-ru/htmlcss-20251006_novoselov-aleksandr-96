@@ -1,12 +1,12 @@
 .preview {
     background-color: var(--ghost-white);
-    padding: 68px 0;
+    padding: 24px 16px 61px 15px;
 }
 
 .preview__inner {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 23px 16px;
 }
 
 .preview__inner-components {
@@ -16,5 +16,21 @@
 }
 
 .preview__components {
-    padding: 36px 0 0;
+    padding: 0;
+    background-color: var(--white);
+}
+
+@media (min-width: 768px) {
+   .preview {
+        padding: 68px 24px;
+    }
+
+    .preview__inner {
+        gap: 30px;
+    }
+
+    .preview__components {
+        padding: 36px 0 0;
+        background-color: var(--ghost-white);
+    }
 }
